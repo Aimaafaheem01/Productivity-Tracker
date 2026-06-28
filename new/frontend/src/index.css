@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ocean-50: #f0fdfd;
+  --color-ocean-100: #ccf7f6;
+  --color-ocean-200: #99eeec;
+  --color-ocean-300: #5cdcd9;
+  --color-ocean-400: #2dc1bf;
+  --color-ocean-500: #0ea5a8;
+  --color-ocean-600: #0b8487;
+  --color-ocean-700: #0c696c;
+  --color-ocean-800: #0e5456;
+  --color-ocean-900: #0f4547;
+
+  --color-azure-50: #eff6ff;
+  --color-azure-100: #dbeafe;
+  --color-azure-200: #bfdbfe;
+  --color-azure-300: #93c5fd;
+  --color-azure-400: #60a5fa;
+  --color-azure-500: #2563eb;
+  --color-azure-600: #1d4ed8;
+  --color-azure-700: #1e40af;
+  --color-azure-800: #1e3a8a;
+  --color-azure-900: #172554;
+
+  --color-coral-50: #fff7ed;
+  --color-coral-100: #ffedd5;
+  --color-coral-200: #fed7aa;
+  --color-coral-300: #fdba74;
+  --color-coral-400: #fb923c;
+  --color-coral-500: #f97316;
+  --color-coral-600: #ea580c;
+  --color-coral-700: #c2410c;
+  --color-coral-800: #9a3412;
+  --color-coral-900: #7c2d12;
+
+  --color-mist-50: #f8fafc;
+  --color-mist-100: #f1f5f9;
+  --color-mist-200: #e2e8f0;
+  --color-mist-300: #cbd5e1;
+
+  --color-deep-700: #1e293b;
+  --color-deep-800: #0f172a;
+  --color-deep-900: #020617;
+
+  --font-sans: "Inter", "system-ui", "sans-serif";
+}
+
+body {
+  background-color: var(--color-mist-50);
+  color: var(--color-deep-800);
+}
