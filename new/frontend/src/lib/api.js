@@ -61,7 +61,22 @@ export const api = {
     request(`/tasks/${id}`, {
       method: "DELETE",
     }),
+  
+    toggleSubtask: (taskId, subtaskId) =>
+    request(`/tasks/${taskId}/subtasks/${subtaskId}/toggle`, {
+      method: "PUT",
+    }),
 
+  archiveTask: (id) =>
+    request(`/tasks/${id}/archive`, {
+      method: "PUT",
+    }),
+
+  duplicateTask: (id) =>
+    request(`/tasks/${id}/duplicate`, {
+      method: "POST",
+    }),
+    
   getHabits: () => request("/habits"),
 
   createHabit: (habit) =>

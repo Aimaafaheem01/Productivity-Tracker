@@ -4,7 +4,7 @@ import Oneline from "../features/tasks/components/Oneline";
 import TaskList from "../features/tasks/components/TaskList";
 import FocusTimer from "../features/focus/components/FocusTimer";
 import { api } from "../lib/api";
-
+import TaskModal from "../features/tasks/components/TaskModal";
 import { CheckCircle, Zap, Flame, Hourglass, Plus, X } from "lucide-react";
 
 // TODO(step 6 - AI/scheduling): WeeklyFocus and DailyHabits were imported
